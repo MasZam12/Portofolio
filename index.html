@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Waiting+for+the+Sunrise&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <link rel="stylesheet" href="static/css/style.css" />
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="navbar-logo">
+          <h2>Ilham</h2>
+        </div>
+        <div class="navbar-nav">
+          <a href="#">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#skill">Skills</a>
+          <a href="#project">Projects</a>
+          <a href="#contact">Contact Me</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="#" class="menu" id="menu" title="menu-icon">
+            <i data-feather="menu" class="icon"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header -->
+
+    <!-- Main -->
+    <main>
+      <section class="hero" id="#">
+        <div class="content reveal">
+          <h2>
+            Ilham Zam <span> <br />Adi Wiranata</span>
+          </h2>
+          <h4>I'm a Web Developer</h4>
+          <div class="media reveal">
+            <a href="https://www.facebook.com/ilham.zam.92?mibextid=ZbWKwL">
+              <img src="static/img/facebook-logo.png" alt="facebook" class="logo" />
+            </a>
+            <a
+              href="https://www.instagram.com/ilham_zamadi?igsh=amp5OW1xNHNtMmxq"
+            >
+              <img src="static/img/instagram-logo.png" alt="instagram" class="logo" />
+            </a>
+            <a href="http://wa.me/6285642029182">
+              <img src="static/img/whatsapp-logo.png" alt="whatsapp" class="logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ilham-zam-adi-wiranata-177b86253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >
+              <img src="static/img/linkedin-logo.png" alt="linkedin" class="logo" />
+            </a>
+            <a href="https://github.com/MasZam12">
+              <img src="static/img/github-logo.png" alt="linkedin" class="logo" />
+            </a>
+          </div>
+        </div>
+        <div class="image reveal" data-tilt>
+          <div class="shape"></div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2>About <span>Me</span></h2>
+        <div class="content reveal">
+          <div class="tab reveal">
+            <div class="tab-box">
+              <button class="tab-btn" id="button1" onclick="openAbout()">
+                About
+              </button>
+              <button class="tab-btn" id="button2" onclick="openEdu()">
+                Education
+              </button>
+              <button class="tab-btn" id="button3" onclick="openCertif()">
+                Certification
+              </button>
+            </div>
+            <div class="content-box">
+              <div class="content" id="content1">
+                <div class="image">
+                  <img src="static/img/profile-picture.png" alt="" class="" />
+                </div>
+                <p>
+                  Hi! My name is Ilham Zam Adi Wiranata, and I’m someone who
+                  loves combining creativity, logic, and technology to bring
+                  ideas to life. With a degree in Mechatronics and Artificial
+                  Intelligence, I’ve had the privilege of working on various
+                  projects that challenge me to think outside the box and
+                  develop innovative solutions. I’m particularly fascinated by
+                  how machines can be programmed to replicate human intelligence
+                  and how automation can simplify complex tasks. My work
+                  involves blending mechanical systems with electronic
+                  components and intelligent software to create systems that are
+                  efficient, reliable, and adaptable. What drives me is the
+                  opportunity to solve problems—whether it’s creating a robot
+                  that performs precise tasks, developing a monitoring system
+                  for environmental conditions, or designing an AI model that
+                  predicts outcomes. Every project is a chance to learn, grow,
+                  and contribute something meaningful. But my passion doesn’t
+                  stop at technology. I’m also interested in how these
+                  advancements affect people and communities. I believe
+                  technology should be inclusive, accessible, and used
+                  responsibly to create a positive impact. In my free time, I
+                  enjoy experimenting with new tools and techniques, diving into
+                  books about emerging technologies, and brainstorming ideas for
+                  future innovations. Life, for me, is a continuous journey of
+                  discovery, and I’m excited to see where my curiosity and
+                  determination will lead.
+                </p>
+              </div>
+              <div class="content" id="content2">
+                <div class="row">
+                  <div class="image">
+                    <img src="static/img/logo-upi.svg" alt="" class="" />
+                    <h3>Universitas Pendidikan Indonesia</h3>
+                  </div>
+                  <div class="image">
+                    <div class="logo">
+                      <img src="static/img/logo-smasa.png" alt="" class="" />
+                    </div>
+                    <h3>SMA Negeri Satu Ngawi</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="content" id="content3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="static/img/sertif-web.png" alt="" class="" />
+                  </div>
+                  <div class="card-image">
+                    <img src="static/img/sertif-js.png" alt="" class="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skill" id="skill">
+        <h2>My <span>Skill</span></h2>
+        <div class="content reveal">
+          <div class="row reveal">
+            <div class="card" data-tilt>
+              <img src="static/img/html-logo.png" alt="" class="" />
+            </div>
+            <div class="card" data-tilt>
+              <img src="static/img/css-logo.png" alt="" class="" />
+            </div>
+            <div class="card" data-tilt>
+              <img src="static/img/js-logo.png" alt="" class="" />
+            </div>
+            <div class="card" data-tilt>
+              <img src="static/img/python-logo.png" alt="" class="" />
+            </div>
+            <div class="card" data-tilt>
+              <img src="static/img/c-logo.png" alt="" class="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project" id="project">
+        <h2>My <span>Project</span></h2>
+        <div class="content-container reveal">
+          <div class="content">
+            <div class="card" id="card1">
+              <img src="static/img/project1.png" alt="" class="" />
+            </div>
+            <div class="card" id="card2">
+              <img src="static/img/project2.png" alt="" class="" />
+            </div>
+            <div class="card" id="card3">
+              <img src="static/img/project3.png" alt="" class="" />
+            </div>
+            <div class="card" id="card4">
+              <img src="static/img/project4.png" alt="" class="" />
+            </div>
+            <div class="button">
+              <div class="button-container">
+                <button class="button-3d" id="button-left">
+                  <div class="button-top">
+                    <span class="material-icons">❮</span>
+                  </div>
+                  <div class="button-bottom"></div>
+                  <div class="button-base"></div>
+                </button>
+                <button class="button-3d" id="button-right">
+                  <div class="button-top">
+                    <span class="material-icons">❯</span>
+                  </div>
+                  <div class="button-bottom"></div>
+                  <div class="button-base"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="text-container">
+            <div class="text" id="text1">
+              <h2>Project 1</h2>
+              <p>
+               Skill : HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="text" id="text2">
+              <h2>Project 2</h2>
+              <p>
+                Skill : Machine Learning, HTML, CSS, Flask, JavaScript
+              </p>
+            </div>
+            <div class="text" id="text3">
+              <h2>Project 3</h2>
+              <p>
+                Skill : HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="text" id="text4">
+              <h2>Project 4</h2>
+              <p>
+                Skill : HTML, CSS, JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <div class="content reveal">
+          <div class="side">
+            <div class="phone">
+              <img src="static/img/phone-logo.png" alt="" class="" />
+              <p><span>Phone</span> <br />085642029182</p>
+            </div>
+            <div class="email">
+              <img src="static/img/email-logo.png" alt="" class="" />
+              <p><span>Email</span> <br />izam3481@gmail.com</p>
+            </div>
+            <div class="addres">
+              <img src="static/img/home-logo.png" alt="" class="" />
+              <p><span>Addres</span> <br />Ngawi,East Java</p>
+            </div>
+          </div>
+          <div class="form-main">
+            <div class="form-container">
+              <form class="form">
+                <div class="form-group">
+                  <label for="email">Username</label>
+                  <input required="" name="email" id="email" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input required="" name="email" id="email" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Phone</label>
+                  <input required="" name="email" id="email" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="textarea">How Can We Help You?</label>
+                  <textarea
+                    required=""
+                    cols="50"
+                    rows="10"
+                    id="textarea"
+                    name="textarea"
+                  >
+                  </textarea>
+                </div>
+                <button type="submit" class="form-submit-btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main  -->
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="static/js/tab.js"></script>
+    <script src="static/js/move.js"></script>
+    <script src="static/js/reveal.js"></script>
+    <script src="static/js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+  </body>
+</html>
